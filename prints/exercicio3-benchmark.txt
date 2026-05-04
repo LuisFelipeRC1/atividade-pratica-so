@@ -1,0 +1,20 @@
+$ java -cp out br.com.atividade.so.ArrayListBenchmark
+EXERCICIO 3 - BENCHMARK DE LISTAS
+
+=== 1 THREAD: ArrayList x ThreadSafeArrayList ===
+Lista                  Tamanho    Operacao   Operacoes    Tempo(ms)      Ops/s
+ArrayList              1000       insercao   5000         1.842          2714440.08
+ThreadSafeArrayList    1000       insercao   5000         3.921          1275184.90
+ArrayList              1000       busca      5000         7.315          683526.99
+ThreadSafeArrayList    1000       busca      5000         9.604          520612.25
+ArrayList              1000       remocao    5000         0.676          7396449.70
+ThreadSafeArrayList    1000       remocao    5000         1.923          2600104.00
+
+=== 16 THREADS: ThreadSafeArrayList x Vector ===
+Lista                  Tamanho    Operacao   Operacoes    Tempo(ms)      Ops/s
+ThreadSafeArrayList    1000       insercao   32000        18.331         1745687.66
+Vector                 1000       insercao   32000        21.884         1462255.34
+ThreadSafeArrayList    1000       busca      32000        96.557         331412.84
+Vector                 1000       busca      32000        143.880        222407.56
+ThreadSafeArrayList    1000       remocao    32000        24.321         1315735.54
+Vector                 1000       remocao    32000        31.770         1007240.75

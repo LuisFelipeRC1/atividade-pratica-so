@@ -1,0 +1,21 @@
+$ java -cp out br.com.atividade.so.CrudDatabaseDemo
+[20:22:15.112] [consulta-1] READ iniciado para id=4 | consultas simultaneas=1
+[20:22:15.193] [consulta-2] READ iniciado para id=11 | consultas simultaneas=2
+[20:22:15.274] [consulta-3] READ iniciado para id=2 | consultas simultaneas=3
+[20:22:15.355] [consulta-4] READ iniciado para id=17 | consultas simultaneas=4
+[20:22:15.436] [consulta-5] READ iniciado para id=9 | consultas simultaneas=5
+[20:22:15.517] [consulta-6] READ iniciado para id=1 | consultas simultaneas=6
+[20:22:15.598] [consulta-7] READ iniciado para id=5 | consultas simultaneas=7
+[20:22:15.679] [consulta-8] READ iniciado para id=13 | consultas simultaneas=8
+[20:22:15.760] [consulta-9] READ iniciado para id=20 | consultas simultaneas=9
+[20:22:15.841] [consulta-10] READ iniciado para id=8 | consultas simultaneas=10
+[20:22:16.231] [consulta-1] READ finalizado para id=4 | resultado=Registro 4
+[20:22:16.232] [consulta-11] READ iniciado para id=6 | consultas simultaneas=10
+[20:22:17.910] [escrita-create] CREATE iniciado para id=21
+[20:22:18.531] [escrita-create] CREATE finalizado para id=21
+[20:22:18.532] [escrita-update] UPDATE iniciado para id=5
+[20:22:19.184] [escrita-update] UPDATE finalizado para id=5
+[20:22:19.185] [escrita-delete] DELETE iniciado para id=8
+[20:22:19.804] [escrita-delete] DELETE finalizado para id=8
+
+Teste finalizado. Quantidade de registros: 20

@@ -1,0 +1,14 @@
+$ java -cp out br.com.atividade.so.SleepingBarberProblem
+Iniciando barbearia com 2 barbeiros e 10 cadeiras de espera.
+
+[20:10:02] Cliente 01 entrou na fila. Esperando agora: 1
+[20:10:02] Barbeiro 1 iniciou o corte do Cliente 01. Duracao prevista: 9s.
+[20:10:07] Cliente 02 entrou na fila. Esperando agora: 1
+[20:10:07] Barbeiro 2 iniciou o corte do Cliente 02. Duracao prevista: 13s.
+[20:10:11] Barbeiro 1 finalizou o corte do Cliente 01.
+[20:10:12] Cliente 03 entrou na fila. Esperando agora: 1
+[20:10:12] Barbeiro 1 iniciou o corte do Cliente 03. Duracao prevista: 6s.
+[20:10:18] Barbeiro 1 finalizou o corte do Cliente 03.
+[20:10:18] Cliente 04 entrou na fila. Esperando agora: 1
+[20:10:18] Barbeiro 1 iniciou o corte do Cliente 04. Duracao prevista: 15s.
+[20:10:20] Barbeiro 2 finalizou o corte do Cliente 02.
